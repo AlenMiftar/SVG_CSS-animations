@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+}
+
+.youtube {
+    max-width: 600px;
+    width: 100%;
+    min-height: 600px;
+}
