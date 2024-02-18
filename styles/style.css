@@ -1,9 +1,24 @@
-h1 {
+body {
+    background-color: antiquewhite;
+    
+}
+
+.header {
     text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: aquamarine;
+    transition-duration:10s;
 }
 
 .youtube {
     max-width: 600px;
     width: 100%;
     min-height: 600px;
+}
+
+.clock {
+    max-width: 400px;
+    width: 100%;
+    min-height: 400px;
+    
 }

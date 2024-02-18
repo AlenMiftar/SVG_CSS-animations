@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>SVG and CSS Animation</title>
 </head>
 <body>
-  <h1>Assignment # 9 <br> Recreate SVG and add CSS animation</h1>
+  <h1 class="header">Assignment lesson 9: <br> SVG and CSS Animation.</h1>
   
   <svg class="youtube">
     <use href="images/yotube.svg#youtube"></use>
   </svg>
 
-  <svg height="240" width="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" >
+  <svg class="clock animate__animated animate__pulse animate__infinite" height="240" width="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" >
     <circle cx="110" cy="110" r="100" fill="black" stroke="none" />
     <polyline points="50,110 110,110 110,30
     " fill="none" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
