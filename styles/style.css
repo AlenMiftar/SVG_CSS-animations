@@ -2,6 +2,11 @@ body {
   background-color: antiquewhite;
 }
 
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header {
   text-align: center;
   color: rgb(255, 255, 255);
@@ -17,15 +22,16 @@ body {
 }
 
 .youtube {
-  max-width: 300px;
+  display: flex;
+  max-width: 150px;
   width: 100%;
-  min-height: 300px;
+  min-height: 100px;
   margin-left: 50px;
 }
 
 .youtube:hover {
   cursor: pointer;
-  animation: youtubeLogo 3.5s ease-in;
+  animation: youtubeLogo 2.5s ease infinite;
 }
 
 @keyframes youtubeLogo {
@@ -33,18 +39,32 @@ body {
     transform: scale(1) rotate(0deg);
   }
   to {
-    transform: scale(1) rotate(360deg);
+    transform: scale(1.5) rotate(360deg);
   }
 }
 
 .clock {
-  max-width: 400px;
+  display: flex;
+  max-width: 240px;
   width: 100%;
   min-height: 400px;
   animation: infinite;
 }
 
 .clock:hover {
+  cursor: pointer;
+  animation-play-state: paused;
+}
+
+.circle {
+  display: flex;
+  max-width: 240px;
+  width: 100%;
+  min-height: 400px;
+  animation: infinite;
+}
+
+.circle:hover {
   cursor: pointer;
   animation-play-state: paused;
 }
