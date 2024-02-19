@@ -7,18 +7,40 @@ body {
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: aquamarine;
-    transition-duration:10s;
+    transition: all 2.0s ease-in-out;
 }
 
+.header:hover {
+    cursor: pointer;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    transition-delay: 0.3s;
+}
+
+
 .youtube {
-    max-width: 600px;
+    max-width: 300px;
     width: 100%;
-    min-height: 600px;
+    min-height: 300px;
+    margin-left: 50px;
+}
+
+.youtube:hover {
+    cursor: pointer;
+    animation: youtubeLogo 3.5s ease ;
+    
+}
+
+@keyframes youtubeLogo {
+    from { transform: scale(1) rotate(0deg); }
+    to {transform: scale(1.5) rotate(180deg);}
 }
 
 .clock {
     max-width: 400px;
     width: 100%;
     min-height: 400px;
+    animation: infinite;
     
 }
