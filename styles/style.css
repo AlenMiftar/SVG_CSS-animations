@@ -21,12 +21,6 @@ section {
   transition-delay: 250ms;
 }
 
-use {
-  max-width: 160px;
-  width: 100%;
-  min-height: 100px;
-}
-
 .youtube {
   display: flex;
   max-width: 160px;

@@ -1,5 +1,5 @@
 <svg width="160" height="100"  xmlns="http://www.w3.org/2000/svg" >
-<symbol id="youtube" viewBox="0 0 160 100">
+<symbol id="youtube-logo" viewBox="0 0 160 100">
     <rect x="5" y="0" rx="30" ry="30" width="150" height="100"
     style="fill:red;stroke:none" /> 
     <polygon points="60,30 60,70 100,48" style="fill:white;stroke:none" />
