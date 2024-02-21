@@ -11,7 +11,7 @@ section {
   text-align: center;
   color: rgb(255, 255, 255);
   background-color: aquamarine;
-  transition: all 1s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
 
 .header:hover {
@@ -22,7 +22,6 @@ section {
 }
 
 .youtube {
-  display: flex;
   max-width: 160px;
   width: 100%;
   min-height: 100px;
@@ -30,6 +29,10 @@ section {
 }
 
 .youtube:hover {
+  max-width: 160px;
+  width: 100%;
+  min-height: 100px;
+  margin-left: 50px;
   cursor: pointer;
   animation: youtubeLogo 2.5s ease infinite;
 }
